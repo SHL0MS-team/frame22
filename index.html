@@ -22,6 +22,11 @@
     <meta property="base:nft:chain" content="base">
     <!-- Standard Open Graph image tag for broader compatibility -->
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/White_flag_of_surrender.svg/510px-White_flag_of_surrender.svg.png">
+    <style>
+        #dynamic-button {
+            display: none; /* This line hides the button */
+        }
+    </style>
 </head>
 <body>
     <button id="dynamic-button"></button>
@@ -34,7 +39,7 @@
         }
 
         // Update the button text every 10 milliseconds
-        setInterval(updateButtonText, 100);
+        setInterval(updateButtonText, 1);
     </script>
 </body>
 </html>
